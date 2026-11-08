@@ -6,7 +6,8 @@ import os
 # ==============================================================================
 # CONFIGURATION
 # ==============================================================================
-# Paste your freshly reset bot token here
+
+
 TOKEN = os.getenv("DISCORD_TOKEN")
 if not TOKEN:
     raise RuntimeError("Set the DISCORD_TOKEN environment variable")
